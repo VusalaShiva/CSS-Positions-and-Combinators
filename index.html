@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid with Positioning</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="header">
+            <div class="company_name">
+            <a href="#home" class="button"><b>Shiva</b> Solutions</a>
+            </div>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="child">
+            <a href="#projects" class="button" for="#projects">Projects</a>
+            <a href="#about" class="button" for="#about">About</a>
+            <a href="#contact" class="button" for="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="background_content">
+            <img src="./images/background.png" alt="">
+            <p>Shiva Solutions</p>
+        </div>
+    </div>
+
+    
+    <center><p class="projects" id="projects"><b>Project</b> : collection of images showcasing various properties.</p></center>
+    <center><h1>Image Grid with Positioning</h1></center>
+    <div class="container">
+        <div class="content1">
+            <img src="./images/house1.jpg" alt="House 1">
+            <p>House 1</p>
+        </div>
+        <div class="content2">
+            <img src="./images/house2.jpg" alt="House 2">
+            <p>House 2</p>
+        </div>
+        <div class="content3">
+            <img src="./images/house3.jpg" alt="House 3">
+            <p>House 3</p>
+        </div>
+        <div class="content4">
+            <img src="./images/house4.jpg" alt="House 4">
+            <p>House 4</p>
+        </div>
+        <div class="content5">
+            <img src="./images/car1.jpg" alt="House 4">
+            <p>House 4</p>
+        </div>
+        <div class="content6">
+            <img src="./images/car2.jpg" alt="Car 2">
+            <p>Car 2</p>
+        </div>
+        <div class="content7">
+            <img src="./images/car3.jpg" alt="Car 3">
+            <p>Car 3</p>
+        </div>
+        <div class="content8">
+            <img src="./images/car4.jpg" alt="Car 4">
+            <p>Car 4</p>
+        </div>
+    </div>
+
+    <center><p class="projects" id="about"><b>About</b> : Pawan Kalyan's movies collection.</p></center>
+    <center><h1>Pawan Kalyan's Movies</h1></center>
+    <div class="container1">
+        <div class="profile">
+            <img src="images1/bheemla_nayak-242370205-large.jpg" alt="Bheemla Nayak">
+            <h3>Things change when the egos of an upright police officer and a retired army havildar clash.</h3>
+            <button>watch</button>
+                <p><b>Director:</b> Saagar K Chandra </p>  
+                <p><b>Stars:</b> Pawan Kalyan, Rana Daggubati, Nithya Menen</p>
+                <p><b>Budget:</b> 90cr</p>
+                <p><b>Worldwide Gross:</b> 158cr</p>
+                <p><b>Worldwide Share:</b> 97.5cr</p>
+                <p><b>Pre-release Business:</b> 106cr</p>
+                <p><b>Verdict:</b> Above Average</p>
+            </div>
+
+            <div class="profile">
+                <img src="images1/Vakeel-Saab-poster_1658934563.avif" alt="Vakeel Saab">
+                <h3>Three girls find themselves accused of attempt to murder after escaping molestation. Their only hope is an alcoholic lawyer who agrees to take up the case.</h3>
+                <button>watch</button>
+                <p><b>Director:</b> Venu Sriram</p>
+                <p><b>Stars:</b> Pawan Kalyan, Nivetha Thomas, Anjali</p>
+                <p><b>Budget:</b> 85cr</p>
+                <p><b>Worldwide Gross:</b> 137.8cr</p>
+                <p><b>Worldwide Share:</b> 86.3cr</p>
+                <p><b>Pre-release Business:</b> 89cr</p>
+                <p><b>Verdict:</b> Above Average</p>
+            </div>
+
+            <div class="profile">
+                <img src="images1/Attarintiki-Daredi-images-9bff50fa-4efa-4694-ae4c-cfbd01c1091.jpg" alt="Attarintiki Daredi">
+                <h3>The scion of a powerful family is tasked with retrieving an estranged family member.</h3>
+                <button>watch</button>
+                <p><b>Director:</b> Trivikram Srinivas</p>
+                <p><b>Stars:</b> Pawan Kalyan, Samantha Ruth Prabhu, Pranitha Subhash</p>
+                <p><b>Budget:</b> 55cr</p>
+                <p><b>Worldwide Gross:</b> 75.2cr</p>
+                <p><b>Worldwide Share:</b> 86.3cr</p>
+                <p><b>Pre-release Business:</b> 51cr</p>
+                <p><b>Verdict:</b> Blockbuster</p>
+            </div>
+
+            <div class="profile">
+                <img src="images1/gabbar_singh.webp" alt="Gabbar Singh">
+                <h3>Inspired by a movie character in Sholay, Venkataratnam, a policeman, calls himself Gabbar Singh. He's posted in a village where a thug wants to enter politics and lures his stepbrother to join him.</h3>
+                <button>watch</button>
+                <p><b>Director:</b> Harish Shankar</p>
+                <p><b>Stars:</b> Pawan Kalyan, Shruti Haasan, Abhimanyu Singh</p>
+                <p><b>Budget:</b> 40cr</p>
+                <p><b>Worldwide Gross:</b> 104cr</p>
+                <p><b>Worldwide Share:</b> 60.5cr</p>
+                <p><b>Pre-release Business:</b> 35cr</p>
+                <p><b>Verdict:</b> Blockbuster</p>
+            </div>
+        </div>
+    <div id="contact" class="contact-section">
+        <p class="projects"><b>Contact Us</b></p>
+        <h1>Feel free to reach out for any queries or collaborations.</h1>
+
+        <div class="contact">
+            <form action="./index.html">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="fname" required pattern="[A-Za-z ]+" title="Only letters allowed">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" title="Enter a valid Gmail address">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" rows="3" required placeholder="Write your comment here..."></textarea>
+                </div>
+
+                <input type="submit" value="Send Message" class="submit-btn">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Shiva Solutions. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="https://www.linkedin.com/in/vusala-shiva-kumar-21ab64259/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/VusalaShiva" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
+
